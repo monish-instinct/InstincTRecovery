@@ -22,8 +22,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.29.0'
-          channel: 'stable'
+          flutter-version: '3.41.6'
           cache: true
 
       - name: Prepare environment file
